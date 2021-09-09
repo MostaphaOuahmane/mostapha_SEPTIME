@@ -1,0 +1,73 @@
+body {
+    color: black;
+    background-color: blanchedalmond;
+
+}
+.contenur {
+    background-color: #fff;
+    width:900px;
+    height: 100%;
+    margin-left: 25%;
+}
+header {
+    background-color: orange;
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+}
+nav {
+    background-color: orange;
+    text-align: center;
+    margin-top: 0%;
+    width: auto;
+    height: auto;
+}
+
+.img-assiette img {
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+}
+.text-assiette  {
+    position: absolute;
+    left: 650px;
+    top: 250px;
+   
+}
+.text-assiette  hr {
+    width: 633px;
+}
+ section #salle {
+     margin-left: 0; 
+     float: left;
+   
+}
+
+
+}
+.text-salle {
+   
+    float: left;
+    margin-left: 0;
+    width: 40%;
+}
+.img-salle {
+    position:sticky;
+    top: 10px;
+    left: 52%;
+    float:right;
+}
+
+#service {
+    margin-top: 0;
+    
+}
+
+ul, hr {
+    
+    margin: 0;
+}
+.hr-tet {
+    width: 398px;
+}
