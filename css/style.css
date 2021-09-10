@@ -117,9 +117,32 @@ header nav li a:hover {
      text-transform: uppercase;
  }
 footer {
-    background-color: orange;
-    height: 300px;
+ 
+    height: 350px;
     text-align: center;
+    padding-bottom: 100px;
+}
+footer h2 {
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+
+    letter-spacing: .5em;
+    line-height: 50px;
+}
+footer figcaption {
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+    color: rgb(126, 129, 129);
+}
+address {
+    margin-top: 50px;
+    font-family: serif;
+    font-size: small;
+    text-transform: uppercase;
 }
 .sous-section {
     /* background: grey; */
@@ -133,6 +156,8 @@ footer {
 .img_assiette {
     background: url("../img/assiette.png") no-repeat;
     /* background-color: aquamarine; */
+    background-position: center;
+    background-size: 80%;
 }
 /* l'autre les images */
 #assiette .text-assiette {
@@ -174,10 +199,13 @@ footer {
 }
 .resto_02 {
     background: url("../img/resto_02.jpg")no-repeat;
+    object-position: 50%,50%;
 }
 .resto_03 {
     background: url("../img/resto_03.jpg")no-repeat;
+    object-position: 50%,50%;
 }
 .resto_04 {
     background: url("../img/resto_04.jpg")no-repeat;
+    object-position: 50%,50%;
 }
